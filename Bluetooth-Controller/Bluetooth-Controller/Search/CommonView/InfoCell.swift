@@ -15,9 +15,11 @@ class InfoCell: UITableViewCell {
     
     private lazy var titleLabel = config(QMUILabel()) {
         $0.font = .systemFont(ofSize: 15, weight: .light)
+        $0.textColor = UIColor.pg.title
     }
     private lazy var subtitleLabel = config(QMUILabel()) {
         $0.font = .systemFont(ofSize: 13, weight: .ultraLight)
+        $0.textColor = UIColor.pg.title
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {

@@ -10,6 +10,8 @@ import CoreBluetooth
 public struct SBService {
     private let service: CBService
     
+    public var peripheral: SBPeripheral { SBCentralManager.shared.peripheralList.convert(service.peripheral) }
+    
     public var id: String { service.uuid.uuidString }
     public var name : String {
         guard let name = service.uuid.name else {

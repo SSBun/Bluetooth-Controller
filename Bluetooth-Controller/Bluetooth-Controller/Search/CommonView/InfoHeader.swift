@@ -15,6 +15,7 @@ class InfoHeader: UITableViewHeaderFooterView {
         $0.font = .systemFont(ofSize: 17, weight: .thin)
         $0.textAlignment = .left
         $0.numberOfLines = 0
+        $0.textColor = UIColor.pg.title
     }
     
     override init(reuseIdentifier: String?) {

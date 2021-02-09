@@ -316,21 +316,35 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (4.2.2)
   - QMUIKit/QMUIWeakObjectContainer (4.2.2)
+  - RxCocoa (6.0.0):
+    - RxRelay (= 6.0.0)
+    - RxSwift (= 6.0.0)
+  - RxRelay (6.0.0):
+    - RxSwift (= 6.0.0)
+  - RxSwift (6.0.0)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - QMUIKit (~> 4.2.2)
+  - RxCocoa (~> 6.0.0)
+  - RxSwift (~> 6.0.0)
   - SnapKit (~> 5.0.1)
 
 SPEC REPOS:
   trunk:
     - QMUIKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
 
 SPEC CHECKSUMS:
   QMUIKit: 5122015af36dc418d4133eee502532cc6207a277
+  RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
+  RxRelay: 8d593be109c06ea850df027351beba614b012ffb
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: a2af7a2321121e8734fd9b38731bd5ad1432f5d8
+PODFILE CHECKSUM: 21215f0329e659b717a617148c847927af39f7db
 
 COCOAPODS: 1.10.0

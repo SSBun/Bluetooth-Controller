@@ -26,10 +26,12 @@ class SearchViewController: BaseViewController {
         setupUI()
         SBCentralManager.shared.search()
 //        SBCentralManager.shared.beginRefreshRSSI()
-        SBCentralManager.shared.observable.addObserver(.weak(self), { event in
+        SBCentralManager.shared.observable.addObserver(.weak(self), { [unowned self] event in
             if case .findNewPeripheral(_) = event {
                 self.peripherals = SBCentralManager.shared.peripheralList.peripherals
                 self.listView.reloadData()
+            } else if case .reconnect(let connectedPeripherals) = event {
+                self.handleReconnectedPeripherals(connectedPeripherals)
             }
         })
         
@@ -39,6 +41,12 @@ class SearchViewController: BaseViewController {
                 print(msg ?? "")
             }
         }
+    }
+    
+    private func handleReconnectedPeripherals(_ connectedPeripherals: [SBPeripheral]) {
+        if connectedPeripherals.count < 1 { return }
+        connectedPeripherals[1...].forEach { $0.disconnect() }
+        Router.push(.peripheralInfo(connectedPeripherals[0]))
     }
     
     private func setupUI() {

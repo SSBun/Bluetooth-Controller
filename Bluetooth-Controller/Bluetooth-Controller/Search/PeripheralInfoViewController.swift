@@ -107,6 +107,6 @@ extension PeripheralInfoViewController: QMUITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let service = services[indexPath.section]
         let characteristic = service.characteristics[indexPath.row]
-        Router.push(CharacteristicInfoController(characteristic))
+        Router.push(.characteristicInfo(characteristic))
     }
 }

@@ -13,6 +13,10 @@ public class SBPeripheral: NSObject {
         case updateName(name: String?)
         case read(RSSI: NSNumber)
         case didDiscoverServices(_ services: [SBService])
+        case didDiscoverCharacteristics(_ characteristics: [SBCharacteristic], _ service: SBService)
+        case didDiscoverDescriptors(_ descriptors: [SBDescriptor], _ characteristic: SBCharacteristic)
+        
+        case receiveData(_ characteristic: SBCharacteristic)
         
         case didConnect
         case failToConnect
@@ -25,7 +29,7 @@ public class SBPeripheral: NSObject {
     
     public var name: String? { peripheral.name }
     public var id: UUID { peripheral.identifier }
-    public var services: [SBService] = []
+    public var services: [SBService] { peripheral.services?.map { SBService($0) } ?? [] }
     
     public private(set) var isConnected = false
     
@@ -40,7 +44,7 @@ public class SBPeripheral: NSObject {
         self.peripheral.delegate = self
         observeManager()
     }
-    
+        
     public override var description: String {
         return "name: \(peripheral.name ?? ""), uuid: \(RSSI?.intValue ?? 0), data: \(advertisementData)"
     }
@@ -110,7 +114,6 @@ extension SBPeripheral: CBPeripheralDelegate {
             logError(error.localizedDescription)
             return
         }
-        services = peripheral.services?.map { SBService($0) } ?? []
         services.forEach { $0.searchCharacteristics() }
         trigger(.didDiscoverServices(services))
     }
@@ -141,7 +144,7 @@ extension SBPeripheral: CBPeripheralDelegate {
     }
     
     public func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic, error: Error?) {
-//        observable.trigger(.didDiscoverServices(services))
+        trigger(.receiveData(.init(characteristic)))
     }
 
     // MARK: - Discover Characteristics
@@ -151,19 +154,37 @@ extension SBPeripheral: CBPeripheralDelegate {
     }
     
     public func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
-//        observable.trigger(.didDiscoverServices(services))
+        guard let sbService = searchService(service) else { return }
+        
+        trigger(.didDiscoverCharacteristics(sbService.characteristics, sbService))
+        
+        // To request the values and descriptors of all the characteristics.
         service.characteristics?.forEach { peripheral.readValue(for: $0) }
         service.characteristics?.forEach { peripheral.discoverDescriptors(for: $0) }
     }
     
     // MARK: - Discover Descriptors
     public func peripheral(_ peripheral: CBPeripheral, didDiscoverDescriptorsFor characteristic: CBCharacteristic, error: Error?) {
+        guard let sbCharacteristic = searchCharacteristic(characteristic) else { return }
+        trigger(.didDiscoverDescriptors(sbCharacteristic.descriptors, sbCharacteristic))
+        
+        // Reading value for all descriptors.
         characteristic.descriptors?.forEach { peripheral.readValue(for: $0) }
-//        observable.trigger(.didDiscoverServices(services))
     }
    
     public func peripheral(_ peripheral: CBPeripheral, didUpdateNotificationStateFor characteristic: CBCharacteristic, error: Error?) {
         
     }
     
+}
+
+private extension SBPeripheral {
+    func searchService(_ service: CBService) -> SBService? {
+        services.filter({ $0.id == service.uuid.uuidString }).first
+    }
+    
+    func searchCharacteristic(_ characteristic: CBCharacteristic) -> SBCharacteristic? {
+        guard let service = searchService(characteristic.service) else { return nil }
+        return service.characteristics.filter({ $0.id == characteristic.uuid.uuidString }).first
+    }
 }

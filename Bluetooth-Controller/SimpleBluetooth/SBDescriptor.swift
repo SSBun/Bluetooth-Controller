@@ -9,6 +9,8 @@ import CoreBluetooth
 
 public struct SBDescriptor {
     private let descriptor: CBDescriptor
+    public var characteristic: SBCharacteristic { .init(descriptor.characteristic) }
+    
     public var id: String { descriptor.uuid.uuidString }
     public var characteristicId: String { descriptor.characteristic.uuid.uuidString }
     

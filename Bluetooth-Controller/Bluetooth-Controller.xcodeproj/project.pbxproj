@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		299057CEE790AB206CAC571D /* Pods_SimpleBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D70910599954399E96EA071 /* Pods_SimpleBluetooth.framework */; };
 		85DF7E6D8F32B97F429C81B5 /* Pods_Bluetooth_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08E13D279794E0BD1CBEFE /* Pods_Bluetooth_Controller.framework */; };
+		B34770AD25D1664400902D25 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34770AC25D1664400902D25 /* Data+Extension.swift */; };
+		B34770B025D169F700902D25 /* WriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34770AF25D169F700902D25 /* WriteCell.swift */; };
+		B34770C525D237C000902D25 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34770C425D237C000902D25 /* UIColor+Extension.swift */; };
+		B34770CA25D2380E00902D25 /* UIColor+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34770C925D2380E00902D25 /* UIColor+Style.swift */; };
+		B34770D225D239AD00902D25 /* BTNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34770D125D239AD00902D25 /* BTNamespace.swift */; };
 		C4506D8425BD369100208809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4506D8325BD369100208809 /* AppDelegate.swift */; };
 		C4506D8D25BD369300208809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4506D8C25BD369300208809 /* Assets.xcassets */; };
 		C4506D9025BD369300208809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4506D8E25BD369300208809 /* LaunchScreen.storyboard */; };
@@ -73,6 +78,11 @@
 		5B371C5424B2985FC65DE433 /* Pods-SimpleBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleBluetooth.release.xcconfig"; path = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth.release.xcconfig"; sourceTree = "<group>"; };
 		AD99D90551F9A9C6D93F9EFC /* Pods-Bluetooth-Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth-Controller.debug.xcconfig"; path = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller.debug.xcconfig"; sourceTree = "<group>"; };
 		B1A4C908CA2D97CA69E30DF1 /* Pods-Bluetooth-Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth-Controller.release.xcconfig"; path = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller.release.xcconfig"; sourceTree = "<group>"; };
+		B34770AC25D1664400902D25 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		B34770AF25D169F700902D25 /* WriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteCell.swift; sourceTree = "<group>"; };
+		B34770C425D237C000902D25 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B34770C925D2380E00902D25 /* UIColor+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Style.swift"; sourceTree = "<group>"; };
+		B34770D125D239AD00902D25 /* BTNamespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTNamespace.swift; sourceTree = "<group>"; };
 		BD08E13D279794E0BD1CBEFE /* Pods_Bluetooth_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluetooth_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4506D8025BD369100208809 /* Bluetooth-Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth-Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4506D8325BD369100208809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +153,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B33C948E25D13CA300744F6B /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				C490657025BF029F003DC0A0 /* InfoCell.swift */,
+				B34770AF25D169F700902D25 /* WriteCell.swift */,
+				C490657325BF02B5003DC0A0 /* InfoHeader.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		B34770C325D237AF00902D25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B34770C425D237C000902D25 /* UIColor+Extension.swift */,
+				B34770D125D239AD00902D25 /* BTNamespace.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B34770C825D237DD00902D25 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				B34770C925D2380E00902D25 /* UIColor+Style.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		C4506D7725BD369100208809 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +203,7 @@
 		C4506D8225BD369100208809 /* Bluetooth-Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B34770C325D237AF00902D25 /* Extension */,
 				C4E224A725BD686400E48F4B /* ViewConfig.swift */,
 				C4506D8325BD369100208809 /* AppDelegate.swift */,
 				C4E2249C25BD609800E48F4B /* Base */,
@@ -224,9 +262,9 @@
 				C4506DAC25BD392400208809 /* SearchViewController.swift */,
 				C4E2249D25BD610800E48F4B /* PeripheralSearchCell.swift */,
 				C4E224AA25BD7BE200E48F4B /* PeripheralInfoViewController.swift */,
-				C490657025BF029F003DC0A0 /* InfoCell.swift */,
-				C490657325BF02B5003DC0A0 /* InfoHeader.swift */,
 				C4A9199825C038DE00F55CEF /* CharacteristicInfoController.swift */,
+				B34770AC25D1664400902D25 /* Data+Extension.swift */,
+				B33C948E25D13CA300744F6B /* CommonView */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -242,6 +280,7 @@
 		C4E2249C25BD609800E48F4B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				B34770C825D237DD00902D25 /* Style */,
 				C4506DA625BD382900208809 /* RootViewController.swift */,
 				C4506DA925BD38EF00208809 /* BaseViewController.swift */,
 				C4506DA225BD37D800208809 /* BaseNavigationController.swift */,
@@ -311,7 +350,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					C4506D7F25BD369100208809 = {
 						CreatedOnToolsVersion = 12.3;
@@ -429,13 +468,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34770B025D169F700902D25 /* WriteCell.swift in Sources */,
 				C490657425BF02B5003DC0A0 /* InfoHeader.swift in Sources */,
+				B34770AD25D1664400902D25 /* Data+Extension.swift in Sources */,
+				B34770CA25D2380E00902D25 /* UIColor+Style.swift in Sources */,
 				C4A9199925C038DE00F55CEF /* CharacteristicInfoController.swift in Sources */,
 				C4506DAD25BD392400208809 /* SearchViewController.swift in Sources */,
 				C4506D8425BD369100208809 /* AppDelegate.swift in Sources */,
 				C4506DAA25BD38EF00208809 /* BaseViewController.swift in Sources */,
+				B34770C525D237C000902D25 /* UIColor+Extension.swift in Sources */,
 				C4506DA325BD37D800208809 /* BaseNavigationController.swift in Sources */,
 				C4E224A825BD686400E48F4B /* ViewConfig.swift in Sources */,
+				B34770D225D239AD00902D25 /* BTNamespace.swift in Sources */,
 				C4E224AB25BD7BE200E48F4B /* PeripheralInfoViewController.swift in Sources */,
 				C4506DA725BD382900208809 /* RootViewController.swift in Sources */,
 				C4506DB025BD392900208809 /* SettingViewController.swift in Sources */,
@@ -538,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -593,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -613,7 +657,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7467638S34;
 				INFOPLIST_FILE = "Bluetooth-Controller/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,7 +679,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7467638S34;
 				INFOPLIST_FILE = "Bluetooth-Controller/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,7 +705,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SimpleBluetooth/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,6 +714,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssbun.www.SimpleBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -692,7 +737,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SimpleBluetooth/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -701,6 +746,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssbun.www.SimpleBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

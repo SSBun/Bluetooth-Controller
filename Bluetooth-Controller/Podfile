@@ -7,7 +7,9 @@ target 'Bluetooth-Controller' do
 
   # Pods for Bluetooth-Controller
  pod 'SnapKit', '~> 5.0.1'
-pod 'QMUIKit', '~> 4.2.2'
+ pod 'QMUIKit', '~> 4.2.2'
+ pod 'RxSwift', '~> 6.0.0'
+ pod 'RxCocoa', '~> 6.0.0'
 
 end
 

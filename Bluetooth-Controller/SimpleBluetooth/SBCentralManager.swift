@@ -15,6 +15,7 @@ public class SBCentralManager: NSObject {
         case didConnect(_ peripheral: SBPeripheral)
         case failToConnect(_ peripheral: SBPeripheral)
         case didDisConnect(_ peripheral: SBPeripheral)
+        case reconnect(_ peripherals: [SBPeripheral])
     }
             
     // MARK: - Public Properties
@@ -105,7 +106,10 @@ extension SBCentralManager: CBCentralManagerDelegate {
     }
     
     public func centralManager(_ central: CBCentralManager, willRestoreState dict: [String : Any]) {
-        print("willRestoreState")
+        if let peripherals = dict["kCBRestoredPeripherals"] as? [CBPeripheral] {
+            trigger(.reconnect(peripherals.map { peripheralList.convert($0) }))
+        }
+        print("willRestoreState: \(dict)")
     }
     
     public func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {

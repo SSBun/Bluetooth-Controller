@@ -22,8 +22,8 @@ class PeripheralSearchCell: QMUITableViewCell {
     }
     
     private lazy var titleLabel = config(QMUILabel()) {
-        $0.textColor = UIColor.qmui_color(withHexString: "#ffffff")
-        $0.font = .systemFont(ofSize: 18, weight: .ultraLight)
+        $0.textColor = UIColor.pg.title
+        $0.font = .systemFont(ofSize: 18, weight: .light)
     }
     
     private lazy var signalStrengthIndicator = config(QMUIPieProgressView()) {
@@ -32,7 +32,7 @@ class PeripheralSearchCell: QMUITableViewCell {
     }
     
     private lazy var signalStrengthLabel = config(QMUILabel()) {
-        $0.textColor = .white
+        $0.textColor = UIColor.pg.title
         $0.font = .systemFont(ofSize: 12, weight: .regular)
     }
     
@@ -44,9 +44,9 @@ class PeripheralSearchCell: QMUITableViewCell {
     private lazy var connectBtn = config(QMUIFillButton()) {
         $0.setTitle("Connect", for: .normal)
         $0.titleLabel?.font = .systemFont(ofSize: 16, weight: .medium)
-        $0.tintColor = .blue
+        $0.tintColor = UIColor.pg.btnBgBlue
         $0.highlightedBackgroundColor = .cyan
-        $0.setTitleColor(.blue, for: .normal)
+        $0.setTitleColor(UIColor.pg.btnTitle, for: .normal)
         $0.addTarget(self, action: #selector(gotoConnect), for: .touchUpInside)
     }
     
@@ -123,11 +123,11 @@ class PeripheralSearchCell: QMUITableViewCell {
     
     @objc private func gotoConnect() {
         peripheral?.connect()
-        QMUITips.showLoading("Connecting", in: UIApplication.shared.keyWindow!)
+        QMUITips.showLoading("Connecting", in: UIApplication.shared.windows.first!)
     }
     
     private func enterPeripheralInfoPage() {
         guard let peripheral = peripheral, !(Router.topVC is PeripheralInfoViewController) else { return }
-        Router.push(PeripheralInfoViewController(peripheral: peripheral))
+        Router.push(.peripheralInfo(peripheral))
     }
 }

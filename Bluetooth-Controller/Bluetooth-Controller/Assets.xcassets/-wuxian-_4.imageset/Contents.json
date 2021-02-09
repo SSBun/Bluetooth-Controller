@@ -1,0 +1,27 @@
+{
+  "images" : [
+    {
+      "filename" : "-wuxian-_4.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "-wuxian-_4-1.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "unassigned" : true
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

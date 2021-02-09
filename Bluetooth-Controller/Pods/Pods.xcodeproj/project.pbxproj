@@ -19,6 +19,7 @@
 		039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E3B9CC594E0E88E13CC78DA42D910 /* LayoutConstraint.swift */; };
 		03C28B7F08A704A03380ED610A99D3A8 /* UIColor+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012AC678BEF897A034E0D872EA83443 /* UIColor+QMUI.m */; };
 		03FD1DE74294AA958B9F2AAFB38A4377 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35346CCBD248B0A832DFF648F5A021 /* Empty.swift */; };
+		04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		05D46DA9BBFE65D95C97A8AF2DD1C21B /* QMUIImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D64D5C15A3DD8ACBC9B5303A67709BE8 /* QMUIImagePickerCollectionViewCell.m */; };
 		05EC658B7168FD2246118433183B94B0 /* QMUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5BD7DDFF6EDCBAA434FD983D9DA2FA /* QMUINavigationController.m */; };
 		06185F389644D5BD1C84259027C533D5 /* UICollectionView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C3F66E93DD72738FF2A22DE6CD38D /* UICollectionView+Rx.swift */; };
@@ -29,6 +30,7 @@
 		080F0457EB8E6A9F2841FB0D77AEEF42 /* RxCollectionViewDataSourcePrefetchingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61528B87D1A8A79E673594B6C6E8011F /* RxCollectionViewDataSourcePrefetchingProxy.swift */; };
 		083B2C9E119B60023B0EF5B3D346770F /* NSNumber+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314C88756DE1DBA87861B0F33D7BB70 /* NSNumber+QMUI.m */; };
 		089D572F9F263E74DE66A1997FA9489C /* UITraitCollection+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CA806BC7195DD4A2DBC9F61C941C1C2F /* UITraitCollection+QMUI.m */; };
+		08B39ED2A4545760AF2C5E568738B00A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		091B8980E4EFE8B81548A8B0369DF1F7 /* UIPickerView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E94FCA200A6EB06FDEF1545E870652 /* UIPickerView+Rx.swift */; };
 		09B159B3BEFE89DB8328EF5B67B94E43 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306DB2A4CD48694B810A69C4FB0DC3D0 /* RecursiveScheduler.swift */; };
 		0A559D04D3BB9929E072DF119B9A07BE /* QMUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBDE1AF9AA0593894505EE44E4B242E /* QMUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,7 +50,6 @@
 		128376A37733CDCD9870A39DE261904E /* UISearchController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B7633CE3F63FF8454A114967D9E19 /* UISearchController+Rx.swift */; };
 		12E8D9F9C1A9B4FC7669C18954BC4798 /* ControlEvent+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76303DCA829C008E1FA01CF8A7CB4711 /* ControlEvent+Driver.swift */; };
 		12EDB06184BDB74E56556C3827FA7F34 /* UITextView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F07EC62BA0BD2B90415E46F8B171FF /* UITextView+QMUI.m */; };
-		1444150EBB63988482F94C27F664267A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D8C9EBFE6F9D03F7C2A37FFD4E3F8 /* CoreGraphics.framework */; };
 		14F8D93257E4114E4BE6E6CCFFBADBF2 /* NSObject+QMUIMultipleDelegates.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4AC4A61FBC782B1D32E5731D1E49DC /* NSObject+QMUIMultipleDelegates.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15352A2DF10162C51DD68F96D503AE06 /* QMUIThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E00F2B57D91E80F6F03E484C5A9DE /* QMUIThemeManager.m */; };
 		15657F71C14CEAD3ED54FA0503CE0098 /* UITextInputTraits+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A9DFD866F4840D8E46B1A8ACFF8417 /* UITextInputTraits+QMUI.m */; };
@@ -98,6 +99,7 @@
 		22292028C3A2CBE6B5436D60C993C251 /* QMUIMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 001DA1D0ACEF2F431236CCC7D4C509E2 /* QMUIMarqueeLabel.m */; };
 		22F1C1ED2764EF73C12D9C61CD059BCF /* QMUIWindowSizeMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 612075B506EC7AEDF408C754CD42F6E6 /* QMUIWindowSizeMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		232B2F922E972D9F43D2EE15ACECE734 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448303457810F71F95C4459FB96AD674 /* ConstraintPriority.swift */; };
+		2336C91411BE7A3FBC13021455205FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		23C33E622EA46C4B5EE9D73DB05CFB4B /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6408C8D40EB47B480565D4C5088A05C8 /* Delay.swift */; };
 		23CF55A9FA514BDCA0B46320D4ED5DEC /* RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551E8513EADBC07A831A8A488D35D6A2 /* RxCocoa.swift */; };
 		243B99D25FCB6F7EA518F17FCE11B539 /* UISwitch+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2791FCB5D584B53316C7BAC5DCE2CCE1 /* UISwitch+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -223,9 +225,11 @@
 		51CD5887014967E77E58F5A163996454 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D78289EBE5A883770C7FDFC63B50F4 /* ConstraintMaker.swift */; };
 		528E155EAA8B8F82305A479322C23775 /* Pods-SimpleBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27EE8F96AABD2F82FC150C4E69A87EF5 /* Pods-SimpleBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		529CBB97E4E0C8C483651F9A8EDC52D2 /* UILabel+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEB0CAD7CDE185F35CBE0A792AD2FF6 /* UILabel+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DE9B18328FC7FD8B08C8CC7C2C29DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DDC5F3CC92D881C8669843A7B939F6 /* CoreGraphics.framework */; };
 		53427BBB953F425182D32878ACD348ED /* QMUIOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D482AF3FF0C44A656E26490CC93F82 /* QMUIOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53A0FEDC827F1D60C1A34A6E18AD434F /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134BFB789776131E74FBA812D5F7A78D /* Zip+Collection.swift */; };
 		540A2D9D2758E700B570B87ACC4D9637 /* QMUIToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134AF610A5783418383FA3B2A2B8497E /* QMUIToastContentView.m */; };
+		5436B499D4808F93E369D51C27258E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		54530FC5EA902122D6CF3FF966F28490 /* QMUIAnimationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8E5636BB0C377BD93D6AC6DAD8EBFB /* QMUIAnimationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54D74D7D0240692FE43FED86CD5B1ADD /* QMUILab.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D00A36722D0AB818700DA3D8BF3A5EF /* QMUILab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5564FA54B1C8A9524666FFDE99D4E152 /* UISearchBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D21BF82EAFFEAE60DC144660C83D0A /* UISearchBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -269,7 +273,6 @@
 		65EB6DB73AA4C1835C550EBA7F4DCFAF /* QMUILogNameManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E74C50E79B3D13B750094205F99DCB9 /* QMUILogNameManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66337C2A6F346F13F7EB3ED93AB1DD19 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8080CC83F89799F36BDC734C07E37A8 /* Completable.swift */; };
 		66C95AF2ACB936BD34F3DDE14A5E1122 /* UIFont+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FA525C6EE39492E1A78F79942CA85AF5 /* UIFont+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66CEAE88CFDC54746261D9805EFBAFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		681B560529080418E2FD296F7A4EC5EE /* QMUIWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E05D5AF35BF95D49E2503174AF67197 /* QMUIWeakObjectContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68FB7462F641382170F79CCDE0E77C10 /* QMUIEmotionInputManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B78C8951C5656F83AE4B9F077AE4CC9 /* QMUIEmotionInputManager.m */; };
 		699CEC298AA7C162561C8842507D2D13 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593327EE79DF14C5CEF86988D438CD0 /* Do.swift */; };
@@ -296,7 +299,6 @@
 		7017977C1AEE1D4725968F7C9F2D1DDF /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = D633278F50066E85FC7C0A6FD574F750 /* Single.swift */; };
 		70359E1C7BAA76860EA35A607CCC4309 /* DelegateProxyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C7A842FE9798D1CE1751738138F89D /* DelegateProxyType.swift */; };
 		7093044B938B385E31D3D21022270445 /* UIView+QMUIBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B1930B17BEE13340F01975983C5CFBFD /* UIView+QMUIBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70A91F5B983A694625D337C5F53F7104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC9CC5D8B655FDE77076AA7021B608 /* ConstraintDirectionalInsetTarget.swift */; };
 		72A8853DFB2FED9435C51CB517A4999C /* QMUILogNameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A2938AF8CC1EA353CBB5F45BA0A74D /* QMUILogNameManager.m */; };
 		731080639E40B2F8A3AB53F5CB5C58B9 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C2226156EA8688831A910BF150FC8 /* AddRef.swift */; };
@@ -308,11 +310,9 @@
 		75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354E3BEF9F7667DCF834C8C681E2DBCD /* ConstraintMakerRelatable.swift */; };
 		77260113D5ADF7B45DAE46C549580AFD /* UIRefreshControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6A6DB1DD2F961FD771171E5A0E23 /* UIRefreshControl+Rx.swift */; };
 		776DF00A69EFB3C39A0D9B14AFE6BA71 /* QMUIWindowSizeMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DC18578DA888AECB272D3570DEE992BA /* QMUIWindowSizeMonitor.m */; };
-		77842BBA99F084DE3F00BCE20AA8FD9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5063531391659964AA6DD38D262F7EA1 /* UIKit.framework */; };
 		77941F685985EA27808AB691110C2D7F /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286109D2117C4072F6B6945DC24C889B /* NopDisposable.swift */; };
 		77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737148357C087D5D05678F5FE0BDCD9 /* ConstraintLayoutGuideDSL.swift */; };
 		77E92EF560B47195730B461F1987CAAC /* QMUITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 167FA48DEB70D56DB1332581BD14E78F /* QMUITextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7813A09B8F9242BBF63900D45EF15054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		786C836C43BD6428332A4001EE13816F /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F604FDD9BC03347E0955E009B4D60 /* RecursiveLock.swift */; };
 		78C0E07D8CE9B79B1779A9DAA571135F /* NSAttributedString+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D023C8E5FEAA640A47E19F0BE9C647FC /* NSAttributedString+QMUI.m */; };
 		78D765A12838CFEC48147049E6C02641 /* QMUIImagePickerPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623379F7D9BE9981D4277664A09CE76F /* QMUIImagePickerPreviewViewController.m */; };
@@ -344,6 +344,7 @@
 		872E07F59296D07A405BAB9C36936AC8 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520257B1ED8FDEA1765E05CBED269C4 /* DelegateProxy.swift */; };
 		879EE9D71B5FE863C5B064E52AF42C56 /* QMUIImagePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4DCBBA77CBCBB5BDCCEC19E19C3FF /* QMUIImagePreviewView.m */; };
 		8819CBF35F9919DFC3C17016DF3ACE46 /* UIApplication+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4162B7191A150A4D7C7BD3B2085F24 /* UIApplication+Rx.swift */; };
+		888106107E2FF2662DE6E05A429AB2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		88ABD9226B612C727D7C8953131B786D /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F840C1B9682340F04C074E070ABDE9 /* Lock.swift */; };
 		89D0925534F6DCF0A95B26888FF2EE0E /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAEC1C129E2D6B53492D8A118FD6DA7 /* RefCountDisposable.swift */; };
 		8A3E7F4D16B84A0503F110278E357C02 /* QMUIImagePreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B16338EB317C56D7ABEACD1659412FDE /* QMUIImagePreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -427,6 +428,7 @@
 		A567B8E8DE79C4B169FE2B85918EB7F9 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C64D08D41BD9A9890DFC5A7E4FD371 /* Sample.swift */; };
 		A5AC221E49C8BC912C35ACA1B30E8A15 /* QMUILogger+QMUIConfigurationTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC4AF3EC0F3C21FBE42E21DA5CB9038 /* QMUILogger+QMUIConfigurationTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5BE980B95C08EDFEBEC17E0433A4A2E /* RxTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EE2EA53B61FC44ACDDFCECC2A6EBC /* RxTarget.swift */; };
+		A62E86654EC668FEB29C5C29E2798F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		A66ED57B365A35434C5BAF4B990819B7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BF802DF7DCE85C2845039C977E682B /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6973F821FB2436754E71DD5221B4ADA /* QMUIToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C462FDDB0A490A881CCC97B4BD0245D6 /* QMUIToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6B12B920C51897153B4D2B697BB81D7 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20F0E7CECCA1207925FB4E92441C18 /* RetryWhen.swift */; };
@@ -470,7 +472,6 @@
 		B780B272106411CBE258BB60FFC45410 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D5081A6C268051978ACBAF2FE1E0BC /* Debugging.swift */; };
 		B804A1399289EF91F3DE21ED09C4C0E0 /* UIGestureRecognizer+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C65FFCB2170A029FDD096F216AB29633 /* UIGestureRecognizer+QMUI.m */; };
 		B82E2164A69C0D6D3A21B76EFF96F083 /* SharedSequence+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5C5B45C843F9FE3C5398DF819BA03 /* SharedSequence+Operators.swift */; };
-		B8379C0F7628D3F3FB41246C9854D684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		B85E3DB35B83AF821D07DA1F6D73C106 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5931871B1B5400CD15AA768BC7FFA8B /* Disposable.swift */; };
 		B8B7E2AC4972978F6894F9C22936CA42 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4024A25B2BCC2745CE8979BEB87CF975 /* Driver.swift */; };
 		B983D2C341924DD9A9C9B467B7351690 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B672C596AE7AE71903525BB87E01BE2 /* ObserverBase.swift */; };
@@ -586,7 +587,6 @@
 		E267A3CEC5C9731D1BCC6C655F19F395 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390590B7B31A74B4C3FD44F3C6FFF91D /* Deferred.swift */; };
 		E2A3DF5586002EACEC018996ECD729B1 /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42220F75069C1B5115FD54B90616CC92 /* SingleAssignmentDisposable.swift */; };
 		E3491AEEFC777949CDC83C59366CDC56 /* BehaviorRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C69E11F72443E8C75CB7D8CF6D9C1 /* BehaviorRelay.swift */; };
-		E4897B96D1D4356EC0567B5195D88A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		E4DE19A3C32CC4F03181C7D6E2FB7514 /* QMUITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF496EF40A7F62385CCF12E01C7D76A /* QMUITabBarViewController.m */; };
 		E51CC1D190E8360E5F5FC591EC56CCB8 /* QMUIAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 104EF16DC1E92FA6013A465A4FA3031B /* QMUIAsset.m */; };
 		E540995C1F2E45733E6B4ECBB9311279 /* QMUIPopupMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = B816CE6C79AD61D57539E23C65633A35 /* QMUIPopupMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -605,12 +605,13 @@
 		EA3F7951BBDC88DF3CA9AEF7877119B2 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE2FC2BBC9CAF9EC1EE4AB752627E3 /* Reduce.swift */; };
 		EA9248D8EDF97411D5A5DF1AA269B292 /* UISearchController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DD437B3EAB9A2F4BAF31FA3E42BC9F /* UISearchController+QMUI.m */; };
 		EB1726F5E0D0EEBA20E4528B1E37A8FA /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A646B0B703C730C2350C644C8ED6F1D /* ConstraintViewDSL.swift */; };
+		EBD8A76341FC91CDFEA951CDECB002C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001CFD20504DEA05F5F7D9D722301E3 /* UIKit.framework */; };
 		EBDE37FE7C082CE10BEC5EB8D0662A03 /* UIWindow+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DEC5B3146502DB04D56027C382F406 /* UIWindow+QMUI.m */; };
+		EC5BA61B5A3F8C8274392CEED4F17D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */; };
 		ED8ACCBAC03441CEEC66C0C01B7582A3 /* UIMenuController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED9581E67DEA71D1B17A57C8EC04893 /* UIMenuController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDB30BA5D8D189162C4EFFFEC1C7DD7B /* QMUITestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AAD7917A93242CD83F45986548BEA /* QMUITestView.m */; };
 		EE249195550267F2735A0AB7D6D835CA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29320FA5F3C7412E914AC2E61201EDF7 /* Observable.swift */; };
 		EE84B5CE41578C1446F261E6C8244717 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAFDBC6D82C434FE87FCE5710598794 /* SchedulerServices+Emulation.swift */; };
-		EE8F09BFB833B881C988407D06140ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		EE909C7C786140109051BC9562EEC7C8 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F33DF54C260F9FB0D023B0A148321 /* ConstraintMakerPriortizable.swift */; };
 		EF08837F43D78E5C94BA7004F5DCA28B /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC341A4B8B81C3244AA561061A89B9 /* ObservableConvertibleType.swift */; };
 		EF3B1F36ECCEE331463F01AE20618D52 /* UIImage+QMUITheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B6C15A3C047E9808967A9151B22710 /* UIImage+QMUITheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -642,7 +643,6 @@
 		FB9635BF8815CADC7E857AB9CD0E730A /* UIBarItem+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BDB513F84383FD409A9067F66AF1E5 /* UIBarItem+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCB4C9F1BA520CE9FB616F81D9C27D54 /* UIMenuController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D7381F456E6E1FC429B05560E63E9B /* UIMenuController+QMUI.m */; };
 		FCBA63E95465F3944412737988D8033F /* UIBezierPath+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F5200AD083B729D362127EB8CCC34B47 /* UIBezierPath+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD2B1FFD6D59DECE6B8E0254DCF4C836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */; };
 		FD397CD62192F67DF9C2088CC5EBE409 /* ControlEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739675A5CB026A29A08516434A2BAB2 /* ControlEvent.swift */; };
 		FDEBCA25E0674ADFB66FA6256FF6486F /* RxCollectionViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B894AC5B8ED494FCEE9A09C2D069ECDF /* RxCollectionViewDataSourceProxy.swift */; };
 		FEA15153A65578274B02C2E6B98DF192 /* QMUIMarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD99487C74814A0CD8582D76F2EC463 /* QMUIMarqueeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -806,6 +806,7 @@
 		2047134E24832BB623DBE4B87749452A /* QMUIPieProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIPieProgressView.h; path = QMUIKit/QMUIComponents/QMUIPieProgressView.h; sourceTree = "<group>"; };
 		209CA5429E5307C6828DC38B6EEC6DC1 /* QMUIScrollAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIScrollAnimator.m; path = QMUIKit/QMUIComponents/QMUIScrollAnimator/QMUIScrollAnimator.m; sourceTree = "<group>"; };
 		209D230BC58964A00C129B427FA1B56E /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
+		211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		216F6440D58CFEBD894068DB7F0054A4 /* QMUIImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerHelper.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerHelper.m; sourceTree = "<group>"; };
 		21973ED26C3DC8C144D0E26911E61AD6 /* Pods-Bluetooth-Controller-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluetooth-Controller-frameworks.sh"; sourceTree = "<group>"; };
 		21A7443397A00224CF5EFACFDBF38EE1 /* QMUIAssetsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIAssetsManager.h; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAssetsManager.h; sourceTree = "<group>"; };
@@ -900,7 +901,6 @@
 		3FB364C1617B4AF9E6A6769D9789218B /* _RXObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXObjCRuntime.h; path = RxCocoa/Runtime/include/_RXObjCRuntime.h; sourceTree = "<group>"; };
 		3FD334521073FCB0B17041042D9DDC79 /* QMUILogManagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILogManagerViewController.m; path = QMUIKit/QMUIComponents/QMUILogManagerViewController.m; sourceTree = "<group>"; };
 		4024A25B2BCC2745CE8979BEB87CF975 /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = RxCocoa/Traits/Driver/Driver.swift; sourceTree = "<group>"; };
-		411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		41A5994FE629C22627A93464F91C7049 /* Pods-Bluetooth-Controller-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bluetooth-Controller-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42220F75069C1B5115FD54B90616CC92 /* SingleAssignmentDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleAssignmentDisposable.swift; path = RxSwift/Disposables/SingleAssignmentDisposable.swift; sourceTree = "<group>"; };
 		4268AA224BF1C7F175B9897447B3EB61 /* HistoricalScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalScheduler.swift; path = RxSwift/Schedulers/HistoricalScheduler.swift; sourceTree = "<group>"; };
@@ -937,7 +937,6 @@
 		4FABD235C6EBA20EAE49985DC7F89578 /* QMUIAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAlertController.m; path = QMUIKit/QMUIComponents/QMUIAlertController.m; sourceTree = "<group>"; };
 		4FDB12C014201641571577861D2547F6 /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		4FF1E73177E30F7EF3ABC6D421249503 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		5063531391659964AA6DD38D262F7EA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		50C24E8C103BFA3D789F84A942214E9D /* UIActivityIndicatorView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIActivityIndicatorView+Rx.swift"; path = "RxCocoa/iOS/UIActivityIndicatorView+Rx.swift"; sourceTree = "<group>"; };
 		51CC4C762308B97E1727A0D9E9E497DC /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		51FB19440CAFB609D789E4B55625FDD5 /* QMUICommonTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICommonTableViewController.m; path = QMUIKit/QMUIMainFrame/QMUICommonTableViewController.m; sourceTree = "<group>"; };
@@ -1190,6 +1189,7 @@
 		AF11FF97062D9DF7A23BBF821CA155A6 /* UIWindow+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIWindow+QMUI.h"; sourceTree = "<group>"; };
 		AF39A4E6706BF3FEB443B5E033EAD415 /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		AFA5CD44CC70C717A6413EF3B717F698 /* AnonymousObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousObserver.swift; path = RxSwift/Observers/AnonymousObserver.swift; sourceTree = "<group>"; };
+		B001CFD20504DEA05F5F7D9D722301E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B0389C56F22B88361D4BC6F6034D6DFD /* UIBarItem+QMUIBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+QMUIBadge.h"; path = "QMUIKit/QMUIComponents/QMUIBadge/UIBarItem+QMUIBadge.h"; sourceTree = "<group>"; };
 		B0750527A23C481DA20CE23CC941D183 /* NSURL+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSURL+QMUI.m"; sourceTree = "<group>"; };
 		B16338EB317C56D7ABEACD1659412FDE /* QMUIImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePreviewViewController.h; path = QMUIKit/QMUIComponents/QMUIImagePreviewView/QMUIImagePreviewViewController.h; sourceTree = "<group>"; };
@@ -1217,6 +1217,7 @@
 		B70E33BB4548A10E24AE8695D1CAA2AA /* ScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItem.swift; path = RxSwift/Schedulers/Internal/ScheduledItem.swift; sourceTree = "<group>"; };
 		B71F2E639B68D90E8E744575ECB1CF3C /* CALayer+QMUIViewAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+QMUIViewAnimation.m"; path = "QMUIKit/QMUIComponents/CALayer+QMUIViewAnimation.m"; sourceTree = "<group>"; };
 		B75D59F72878D5543089F4D2DA914DA4 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
+		B7DDC5F3CC92D881C8669843A7B939F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B816CE6C79AD61D57539E23C65633A35 /* QMUIPopupMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIPopupMenuView.h; path = QMUIKit/QMUIComponents/QMUIPopupMenuView/QMUIPopupMenuView.h; sourceTree = "<group>"; };
 		B894AC5B8ED494FCEE9A09C2D069ECDF /* RxCollectionViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxCollectionViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		B952278DA6FFABC7FB5F4867A54161A8 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
@@ -1396,7 +1397,6 @@
 		FE3EC4052E194778176A862A1BAD4C24 /* RxCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxCocoa-dummy.m"; sourceTree = "<group>"; };
 		FE59E97ECA0370C5A984BD74E4EF08D6 /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		FED38AB398BCCDDD85E4A70C43CE6E9B /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		FF6D8C9EBFE6F9D03F7C2A37FFD4E3F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxRelay.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF984322CDCD22FF55D45B71C8D4D4AA /* QMUINavigationBarScrollingAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUINavigationBarScrollingAnimator.h; path = QMUIKit/QMUIComponents/QMUIScrollAnimator/QMUINavigationBarScrollingAnimator.h; sourceTree = "<group>"; };
 		FFDF743B2D7D655F7364FF1154FFEDE6 /* QMUIResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QMUIResources.bundle; path = "QMUIKit-QMUIResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1407,7 +1407,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4897B96D1D4356EC0567B5195D88A06 /* Foundation.framework in Frameworks */,
+				2336C91411BE7A3FBC13021455205FAE /* Foundation.framework in Frameworks */,
 				1F3CD1050FD4CF98875EBF59AE5DE94D /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1416,7 +1416,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CEAE88CFDC54746261D9805EFBAFB6 /* Foundation.framework in Frameworks */,
+				888106107E2FF2662DE6E05A429AB2C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1431,7 +1431,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7813A09B8F9242BBF63900D45EF15054 /* Foundation.framework in Frameworks */,
+				04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1439,7 +1439,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8F09BFB833B881C988407D06140ED5 /* Foundation.framework in Frameworks */,
+				EC5BA61B5A3F8C8274392CEED4F17D25 /* Foundation.framework in Frameworks */,
 				E8CCC71331E9806F9DF1488C1B4CF403 /* RxRelay.framework in Frameworks */,
 				CBEC8944C24659753CD222C22F37E406 /* RxSwift.framework in Frameworks */,
 			);
@@ -1449,9 +1449,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1444150EBB63988482F94C27F664267A /* CoreGraphics.framework in Frameworks */,
-				70A91F5B983A694625D337C5F53F7104 /* Foundation.framework in Frameworks */,
-				77842BBA99F084DE3F00BCE20AA8FD9C /* UIKit.framework in Frameworks */,
+				52DE9B18328FC7FD8B08C8CC7C2C29DB /* CoreGraphics.framework in Frameworks */,
+				A62E86654EC668FEB29C5C29E2798F4A /* Foundation.framework in Frameworks */,
+				EBD8A76341FC91CDFEA951CDECB002C2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,7 +1459,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2B1FFD6D59DECE6B8E0254DCF4C836 /* Foundation.framework in Frameworks */,
+				5436B499D4808F93E369D51C27258E5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1467,7 +1467,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8379C0F7628D3F3FB41246C9854D684 /* Foundation.framework in Frameworks */,
+				08B39ED2A4545760AF2C5E568738B00A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1756,6 +1756,16 @@
 				8FBEE991EA97807B40D7EB05884D3778 /* UINavigationController+NavigationBarTransition.m */,
 			);
 			name = NavigationBarTransition;
+			sourceTree = "<group>";
+		};
+		399BAF584228B6C946F2979F24EAB5B7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7DDC5F3CC92D881C8669843A7B939F6 /* CoreGraphics.framework */,
+				211F75CE3437098A5BC6AF1C75CEFE72 /* Foundation.framework */,
+				B001CFD20504DEA05F5F7D9D722301E3 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		39B44361D87656C1C5151CBE7C1B391C /* Pods */ = {
@@ -2237,7 +2247,7 @@
 			children = (
 				B1E77BEE862C63A8D05200D2EDFCD1C4 /* RxRelay.framework */,
 				D11347F45122B467E3EAD24580243E5D /* RxSwift.framework */,
-				D89A40B1B1F5677CDCC40A663326BCD9 /* iOS */,
+				399BAF584228B6C946F2979F24EAB5B7 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2436,16 +2446,6 @@
 				F3E37C2DEC20A37BC777C003AF963E62 /* QMUIAssetsManager.m */,
 			);
 			name = QMUIAssetLibrary;
-			sourceTree = "<group>";
-		};
-		D89A40B1B1F5677CDCC40A663326BCD9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FF6D8C9EBFE6F9D03F7C2A37FFD4E3F8 /* CoreGraphics.framework */,
-				411D9A290C0D13EFE0BE92166B96A04B /* Foundation.framework */,
-				5063531391659964AA6DD38D262F7EA1 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D929453C3520D3EA8E810AD40FFF543F /* QMUIBadge */ = {
@@ -3885,154 +3885,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12182D9E1BCF17A2EA604894DD5A6EC6 /* Debug */ = {
+		0D18F03D13DED141E775B819E90D9954 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4585DC7CD96AB959629B5F6A56FB5CEA /* Pods-SimpleBluetooth.debug.xcconfig */;
+			baseConfigurationReference = 5232F41A78DDC71D7DEDC6921613B7E9 /* RxRelay.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1CA07C123289107A69EC084B555E7C02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B57C79AA78E9D43DD6E6CDD4B3B42FB /* Pods-Bluetooth-Controller.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1FF0791DA57891A4F01C65276B8219B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0B5C45F44263E444777FB35C96A0217 /* RxCocoa.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxCocoa/RxCocoa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxCocoa/RxCocoa-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RxCocoa/RxCocoa.modulemap";
-				PRODUCT_MODULE_NAME = RxCocoa;
-				PRODUCT_NAME = RxCocoa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		228CEDBAC9EA2FA56A7869EB3DA74954 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 317495B622A308B8C9C8CC3C6F453D77 /* RxSwift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift/RxSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift/RxSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DD170A4E95B73A474C11B30D137165B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49D25DDD04D93BCE04F05CEE9900C171 /* RxRelay.release.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4058,191 +3915,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DF715602B25B3C6B8BD8666750EE4E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4038F878490D82D799CA33BD800885D /* QMUIKit.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
-				IBSC_MODULE = QMUIKit;
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = QMUIResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3DD0717EA7505C8DD6D54397E8F5E465 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 313D6891D865621E10D93CD2F846E6DB /* RxCocoa.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxCocoa/RxCocoa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxCocoa/RxCocoa-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RxCocoa/RxCocoa.modulemap";
-				PRODUCT_MODULE_NAME = RxCocoa;
-				PRODUCT_NAME = RxCocoa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4FFC2A84052377929EA114DF538E7D94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 226DBB0F35E7A64732F781F19462C821 /* QMUIKit.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
-				IBSC_MODULE = QMUIKit;
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = QMUIResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		62487FCCF27959B481F47D719B4E366D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A574753057891D2EE7CE984E06AD7532 /* RxSwift.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSwift/RxSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSwift/RxSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
-				PRODUCT_MODULE_NAME = RxSwift;
-				PRODUCT_NAME = RxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6DBF4DE4712177D19377DEA82F75D9AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 138DC5DCC28A3284B2EDB50CEE32BAB8 /* Pods-SimpleBluetooth.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		77B25FC9CEE66CA6521DBC2E6517BD97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C4EC38592E840F72C8C5153CBEC7929 /* SnapKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -4265,7 +3946,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -4288,7 +3968,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4300,10 +3980,13 @@
 			};
 			name = Release;
 		};
-		81A6E4F862734D13FB2940A4FB19BB74 /* Debug */ = {
+		176FFEB235746246C6C48AC46E2680D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5232F41A78DDC71D7DEDC6921613B7E9 /* RxRelay.debug.xcconfig */;
+			baseConfigurationReference = 138DC5DCC28A3284B2EDB50CEE32BAB8 /* Pods-SimpleBluetooth.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4312,8 +3995,173 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxRelay/RxRelay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxRelay/RxRelay-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EADB0C5D0CEA8881A230BF0D68EC5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C9895E90B0D7E2762BBAB58F95FCB4 /* Pods-Bluetooth-Controller.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2429902635BD444FFFACC6C41CF9080F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226DBB0F35E7A64732F781F19462C821 /* QMUIKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
+				IBSC_MODULE = QMUIKit;
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QMUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		28BCE2FDE5686542B9C0FEAF7331E919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4038F878490D82D799CA33BD800885D /* QMUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E5E8E62EE5F88C484D2BF4F8229E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226DBB0F35E7A64732F781F19462C821 /* QMUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39F108A8BCDC28AE9FDB7F260D2C4640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A574753057891D2EE7CE984E06AD7532 /* RxSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift/RxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift/RxSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4321,9 +4169,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/RxRelay/RxRelay.modulemap";
-				PRODUCT_MODULE_NAME = RxRelay;
-				PRODUCT_NAME = RxRelay;
+				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4334,11 +4182,12 @@
 			};
 			name = Debug;
 		};
-		8E403E361CD6D3F32A530333F7435318 /* Release */ = {
+		73B201A0641E8BDF892BA0B27E0AF833 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FA7C053C49FB8127CDD8D2B60A40F15 /* SnapKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4370,11 +4219,11 @@
 			};
 			name = Release;
 		};
-		B9FEA444671A9442DC416F28748FC07E /* Debug */ = {
+		7A857C779544D8127F7070EFAB37C3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 226DBB0F35E7A64732F781F19462C821 /* QMUIKit.debug.xcconfig */;
+			baseConfigurationReference = E0B5C45F44263E444777FB35C96A0217 /* RxCocoa.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4383,33 +4232,33 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxCocoa/RxCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxCocoa/RxCocoa-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
-				PRODUCT_MODULE_NAME = QMUIKit;
-				PRODUCT_NAME = QMUIKit;
+				MODULEMAP_FILE = "Target Support Files/RxCocoa/RxCocoa.modulemap";
+				PRODUCT_MODULE_NAME = RxCocoa;
+				PRODUCT_NAME = RxCocoa;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BE077E64B040EBAC2C8FF210D6F7D125 /* Release */ = {
+		82E14ECB4DB57241CB39BD771BC21136 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4038F878490D82D799CA33BD800885D /* QMUIKit.release.xcconfig */;
+			baseConfigurationReference = 317495B622A308B8C9C8CC3C6F453D77 /* RxSwift.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4418,22 +4267,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSwift/RxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSwift/RxSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
-				PRODUCT_MODULE_NAME = QMUIKit;
-				PRODUCT_NAME = QMUIKit;
+				MODULEMAP_FILE = "Target Support Files/RxSwift/RxSwift.modulemap";
+				PRODUCT_MODULE_NAME = RxSwift;
+				PRODUCT_NAME = RxSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4441,11 +4290,137 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		8850ED40995EA7A453E95B5241B6E3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D25DDD04D93BCE04F05CEE9900C171 /* RxRelay.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxRelay/RxRelay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxRelay/RxRelay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxRelay/RxRelay.modulemap";
+				PRODUCT_MODULE_NAME = RxRelay;
+				PRODUCT_NAME = RxRelay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8981F6D5EB7BE8664335B5097A21EB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4038F878490D82D799CA33BD800885D /* QMUIKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
+				IBSC_MODULE = QMUIKit;
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QMUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		93F7B24E164E6CB45A0D89B55500BFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4585DC7CD96AB959629B5F6A56FB5CEA /* Pods-SimpleBluetooth.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleBluetooth/Pods-SimpleBluetooth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6D5ADF48E4288731CF9B179F8766D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313D6891D865621E10D93CD2F846E6DB /* RxCocoa.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxCocoa/RxCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxCocoa/RxCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxCocoa/RxCocoa.modulemap";
+				PRODUCT_MODULE_NAME = RxCocoa;
+				PRODUCT_NAME = RxCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -4468,7 +4443,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -4494,7 +4468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4507,12 +4481,13 @@
 			};
 			name = Debug;
 		};
-		FC5CB37BD9CFA22CE91A7B0B260148C5 /* Debug */ = {
+		F43958B352533CA03163BFD69995CE33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C9895E90B0D7E2762BBAB58F95FCB4 /* Pods-Bluetooth-Controller.debug.xcconfig */;
+			baseConfigurationReference = 2B57C79AA78E9D43DD6E6CDD4B3B42FB /* Pods-Bluetooth-Controller.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4523,7 +4498,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Bluetooth-Controller/Pods-Bluetooth-Controller-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4539,6 +4514,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F93AF49C1CAF2486F9DC6AE9F85C0739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4EC38592E840F72C8C5153CBEC7929 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -4550,8 +4562,8 @@
 		016D27C18847551C2C14FCF87C03F507 /* Build configuration list for PBXNativeTarget "Pods-Bluetooth-Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC5CB37BD9CFA22CE91A7B0B260148C5 /* Debug */,
-				1CA07C123289107A69EC084B555E7C02 /* Release */,
+				1EADB0C5D0CEA8881A230BF0D68EC5FA /* Debug */,
+				F43958B352533CA03163BFD69995CE33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4559,8 +4571,8 @@
 		056827C2533489BD7AEF1B97F9F035F0 /* Build configuration list for PBXNativeTarget "QMUIKit-QMUIResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FFC2A84052377929EA114DF538E7D94 /* Debug */,
-				2DF715602B25B3C6B8BD8666750EE4E0 /* Release */,
+				2429902635BD444FFFACC6C41CF9080F /* Debug */,
+				8981F6D5EB7BE8664335B5097A21EB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4568,8 +4580,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4577,8 +4589,8 @@
 		7049E2D647E2379C4AC2A71D8B0DA659 /* Build configuration list for PBXNativeTarget "RxRelay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81A6E4F862734D13FB2940A4FB19BB74 /* Debug */,
-				2DD170A4E95B73A474C11B30D137165B /* Release */,
+				0D18F03D13DED141E775B819E90D9954 /* Debug */,
+				8850ED40995EA7A453E95B5241B6E3A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4586,8 +4598,8 @@
 		7F8CE4DC18DBEA01587212F09727DB3D /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77B25FC9CEE66CA6521DBC2E6517BD97 /* Debug */,
-				8E403E361CD6D3F32A530333F7435318 /* Release */,
+				F93AF49C1CAF2486F9DC6AE9F85C0739 /* Debug */,
+				73B201A0641E8BDF892BA0B27E0AF833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4595,8 +4607,8 @@
 		ABE56D8D3781109924A96BB7837ED223 /* Build configuration list for PBXNativeTarget "RxCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FF0791DA57891A4F01C65276B8219B1 /* Debug */,
-				3DD0717EA7505C8DD6D54397E8F5E465 /* Release */,
+				7A857C779544D8127F7070EFAB37C3D6 /* Debug */,
+				D6D5ADF48E4288731CF9B179F8766D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4604,8 +4616,8 @@
 		CA1F5CFA60214776B85DFB524D5FC5F6 /* Build configuration list for PBXNativeTarget "QMUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9FEA444671A9442DC416F28748FC07E /* Debug */,
-				BE077E64B040EBAC2C8FF210D6F7D125 /* Release */,
+				2E5E8E62EE5F88C484D2BF4F8229E175 /* Debug */,
+				28BCE2FDE5686542B9C0FEAF7331E919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4613,8 +4625,8 @@
 		DCFF80EF07405B5602C9C33E35C98ABF /* Build configuration list for PBXNativeTarget "Pods-SimpleBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12182D9E1BCF17A2EA604894DD5A6EC6 /* Debug */,
-				6DBF4DE4712177D19377DEA82F75D9AB /* Release */,
+				93F7B24E164E6CB45A0D89B55500BFC0 /* Debug */,
+				176FFEB235746246C6C48AC46E2680D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4622,8 +4634,8 @@
 		EA41D7D5459E650F8794B2A44773879A /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62487FCCF27959B481F47D719B4E366D /* Debug */,
-				228CEDBAC9EA2FA56A7869EB3DA74954 /* Release */,
+				39F108A8BCDC28AE9FDB7F260D2C4640 /* Debug */,
+				82E14ECB4DB57241CB39BD771BC21136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

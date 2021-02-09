@@ -19,7 +19,7 @@ class InfoCell: UITableViewCell {
     }
     private lazy var subtitleLabel = config(QMUILabel()) {
         $0.font = .systemFont(ofSize: 13, weight: .ultraLight)
-        $0.textColor = UIColor.pg.title
+        $0.textColor = UIColor.pg.subtitle
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -33,6 +33,7 @@ class InfoCell: UITableViewCell {
             
     private func setupUI() {
         accessoryType = .disclosureIndicator
+        backgroundColor = .clear
         
         contentView.addSubview(titleLabel)
         titleLabel.snp.makeConstraints {

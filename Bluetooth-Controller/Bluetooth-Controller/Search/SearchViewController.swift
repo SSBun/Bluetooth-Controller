@@ -14,6 +14,7 @@ class SearchViewController: BaseViewController {
         let view = QMUITableView()
         view.dataSource = self
         view.delegate = self
+        view.backgroundColor = .clear
         view.register(PeripheralSearchCell.self, forCellReuseIdentifier: NSStringFromClass(PeripheralSearchCell.self))
         return view
     }()
@@ -22,7 +23,6 @@ class SearchViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
         setupUI()
         SBCentralManager.shared.search()
 //        SBCentralManager.shared.beginRefreshRSSI()

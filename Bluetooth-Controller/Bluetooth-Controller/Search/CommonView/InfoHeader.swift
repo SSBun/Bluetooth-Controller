@@ -12,10 +12,10 @@ class InfoHeader: UITableViewHeaderFooterView {
     var title: String? { didSet { titleLabel.text = title } }
     
     private lazy var titleLabel = config(QMUILabel()) {
-        $0.font = .systemFont(ofSize: 17, weight: .thin)
+        $0.font = .systemFont(ofSize: 14, weight: .bold)
         $0.textAlignment = .left
         $0.numberOfLines = 0
-        $0.textColor = UIColor.pg.title
+        $0.textColor = UIColor.pg.subtitle
     }
     
     override init(reuseIdentifier: String?) {

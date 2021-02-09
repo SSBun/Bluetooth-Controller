@@ -55,6 +55,7 @@ class PeripheralSearchCell: QMUITableViewCell {
     }
     
     private func setupUI() {
+        backgroundColor = .clear
         contentView.addSubview(signalStrengthIndicator)
         signalStrengthIndicator.snp.makeConstraints {
             $0.leading.equalTo(20)

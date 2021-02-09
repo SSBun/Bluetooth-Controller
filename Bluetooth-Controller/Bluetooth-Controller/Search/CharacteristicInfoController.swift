@@ -21,6 +21,7 @@ class CharacteristicInfoController: BaseViewController {
     private lazy var infoView = config(QMUITableView(frame: .zero, style: .grouped)) {
         $0.delegate = self
         $0.dataSource = self
+        $0.backgroundColor = .clear
         $0.register(InfoCell.self, forCellReuseIdentifier: NSStringFromClass(InfoCell.self))
         $0.register(InfoHeader.self, forHeaderFooterViewReuseIdentifier: NSStringFromClass(InfoHeader.self))
         $0.register(WriteCell.self, forCellReuseIdentifier: NSStringFromClass(WriteCell.self))
